@@ -22,7 +22,7 @@ public class Main {
 		Logger[] loggers = {new FileLogger(), new DataBaseLogger()};
 		
 		// Category
-		Category category1 = new Category(1, "Futbol topu");
+		Category category1 = new Category(1, "ders");
 		Category category2 = new Category(2, "deneme");
 		Category category3 = new Category(3, "deneme");
 		
@@ -45,9 +45,9 @@ public class Main {
 		
 		// Lecturer
 		
-		Lecturer lecturer1 = new Lecturer(1, "Fatih", "Mutlu", "46420688862");
-		Lecturer lecturer2 = new Lecturer(1, "Fatih", "Mutlu", "46420688862");
-		Lecturer lecturer3 = new Lecturer(1, "Fatih", "Mutlu", "464206882");
+		Lecturer lecturer1 = new Lecturer(1, "Fatih", "Mutlu", "1234567891011");
+		Lecturer lecturer2 = new Lecturer(1, "Fatih", "Mutlu", "1234567891011");
+		Lecturer lecturer3 = new Lecturer(1, "Fatih", "Mutlu", "12346");
 		
 		LecturerManager lecturerManager = new LecturerManager(new HibernateLecturerDao(), loggers);
 		//lecturerManager.save(lecturer3);
